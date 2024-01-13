@@ -4,12 +4,50 @@ body {
   background-color: #ffffff;
 }
 
+p, h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 a {
   text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
 }
 
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.container { 
+  width:1158; 
+  padding: 0 15px; 
+  margin: 0 auto;
+  }
+
+.header {
+  border-bottom: 1px solid #E7E9FC;
+background: #FFF;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.heder-nav {
+  display: flex;
+  align-items: center;
 }
 
 .heder-logo {
@@ -20,6 +58,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .heder-logo-span {
@@ -30,6 +69,12 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .heder-menu {
@@ -45,8 +90,15 @@ ul {
   color: #404bbf;
 }
 
+.address-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+
 .heder-address {
-  font-style: normal
+  font-style: normal;
+  margin-left: auto;
 }
 
 .heder-address-kontakt {
