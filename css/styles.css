@@ -168,7 +168,7 @@ background: #FFF;
 }
 
 .studio {
-
+  padding: 120px 0
 }
 
 .studio-list {
@@ -177,15 +177,20 @@ background: #FFF;
   
 }
 
-.Studio-menu {
+.studio-list {
   display: flex;
-  flex-direction: column;
-  width: 264px;
+  gap: 24px; 
+  align-items: center;
+}
+
+.Studio-menu {
+  width: calc((100% - 72px) / 4
+
   
 }
 
 .studio-headline {
-  visibility: hidden;
+visibility: hidden;
 }
 
 .studio-menu-headline {
@@ -194,6 +199,7 @@ background: #FFF;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px; 
 }
 
 .studio-text {
@@ -202,6 +208,7 @@ background: #FFF;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
 }
 
 .team {
