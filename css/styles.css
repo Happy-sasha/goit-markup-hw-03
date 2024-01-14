@@ -117,7 +117,18 @@ background: #FFF;
 
 .hero {
   background-color: #2e2f42;
-}
+  width: auto;
+  height: 600px;
+  flex-shrink: 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .container-hero {
+
+  }
 
 .hero-headline {
   color: #fff;
@@ -126,6 +137,7 @@ background: #FFF;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  padding-bottom: 48px;
 }
 
 .hero-button {
@@ -136,7 +148,13 @@ background: #FFF;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer 
+  cursor: pointer;
+  padding: 16px 32px;
+  margin-left: 636;
+  /* align-items: center;
+  gap: 10px; */
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
@@ -145,9 +163,21 @@ background: #FFF;
 }
 
 .studio {
+
 }
 
-.Studio-menu
+.studio-list {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.Studio-menu {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  
+}
 
 .studio-headline {
   visibility: hidden;
