@@ -189,7 +189,7 @@ background: #FFF;
   width: calc((100% - 72px) / 4);
 }
 
-.studio-headline {
+.visually-hidden {
 visibility: hidden;
 }
 
