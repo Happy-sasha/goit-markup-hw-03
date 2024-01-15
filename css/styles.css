@@ -43,7 +43,6 @@ img {
 .header {
   border-bottom: 1px solid #E7E9FC;
 background: #FFF;
-padding: 24px 0 24px;
 }
 
 .container-header {
@@ -64,6 +63,7 @@ padding: 24px 0 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0 24px;
 }
 
 .heder-logo-span {
@@ -113,6 +113,7 @@ padding: 24px 0 24px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0 24px;
 }
 
 .heder-address-kontakt:hover,
